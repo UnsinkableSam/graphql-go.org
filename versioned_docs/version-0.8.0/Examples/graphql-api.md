@@ -28,6 +28,6 @@ func main() {
 	log.Println("GraphQL Server running on [POST]: localhost:8081/graphql")
 	log.Println("GraphQL Playground running on [GET]: localhost:8081/graphql")
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8081", nil)
 }
 ```
